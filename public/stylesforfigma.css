@@ -1,0 +1,245 @@
+
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.header-logo-img {
+    width: 186px;
+    height: 58px;
+    padding-left: 180px;
+}
+
+.social-logo {
+    width: 33px;
+    height: 27px;
+    padding: 15px;
+}
+
+.header-navigation {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-button-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.nav-item-link {
+    text-decoration: none !important;
+    color: #FFFFFF;
+    font-family: 'Graphik';
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.header-social {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 180px;
+}
+
+.header-discript {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Graphik';
+    font-size: 27px;
+}
+
+.header-button {
+    display: flex;
+    justify-content: center;
+}
+
+.button-link {
+    text-align: center;
+    width: 236px;
+    height: 52px;
+    background: #2091F9;
+    border-radius: 35px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.section-info {
+    padding-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 30px;
+} 
+
+
+.image-to-discription {
+    width: 624px;
+    height: 349px;
+}
+
+.email {
+    padding-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 200px;
+}
+
+.img-logo-email {
+    width: 677px;
+    height: 514px;
+}
+
+.info-email {
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+}
+.email-discript {
+    font-weight: normal;
+}
+
+.partners {
+    padding-top: 150px;
+    text-align: center;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+.grid-partners {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 170px);
+    grid-auto-rows: repeat(2, 80px);
+    background: #FFFFFF;
+    border: 4px solid #D8D8D8;
+    margin: 75px;
+}
+
+.partners-logo {
+    width: 75px;
+    height: 30px;
+}
+
+.testimonials {
+    padding-top: 150px;
+    text-align: center;
+    
+}
+.logo-test {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 150px;
+    height: 60;
+}
+.client-logo {
+    width: 50px;
+    height: 50px;
+}
+.client {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 600px;
+}
+.test-about {
+    font-weight: normal;
+}
+
+.pricing {
+    background-color: #252B42;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.table-price {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 200px);
+    grid-auto-rows: auto;
+}
+
+.table-price  ul  li {
+    list-style-type: none;
+    padding-right: 30px;
+    line-height: 50px;
+}
+.table-price .button-link {
+    width: 150px;
+    height: 50px;
+}
+.middle-table .button-link {
+    background-color: #FFFFFF;
+    color: #2091F9;
+}
+
+.white-table {
+    background-color: #FFFFFF;
+    color: #252B42;
+}
+.middle-table {
+    background-color: #2091F9;
+}
+
+.contact-us {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+}
+.map-contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 250px;
+    padding-top: 50px;
+}
+
+.logo-contact {
+    width: 20.42px;
+    height: 29.08px;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.names {
+    background-color: #252B42;
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+.table-names-cont {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 200px);
+    grid-auto-rows: auto;
+    text-align: center;
+}
+.table-names-cont  ul li {
+    list-style-type: none;
+    padding-right: 30px;
+    line-height: 50px;
+}
