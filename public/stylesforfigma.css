@@ -83,9 +83,10 @@
 .section-info {
     padding-top: 200px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    padding-inline: 100px;
+    align-content: center;
 } 
 
 .fastest-way {
@@ -107,9 +108,10 @@
 .email {
     padding-top: 250px;
     display: flex;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 200px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
 }
 
 .img-logo-email {
@@ -134,8 +136,10 @@
 .partners {
     padding-top: 150px;
     text-align: center;
-    padding-left: 230px;
-    padding-right: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .grid-partners {
@@ -156,7 +160,10 @@
 .testimonials {
     padding-top: 150px;
     text-align: center;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
 }
 .logo-test {
     padding-top: 50px;
@@ -185,8 +192,10 @@
     background-color: #252B42;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 100px;
-    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
     padding-bottom: 50px;
 }
 
@@ -226,6 +235,9 @@
 .contact-us {
     text-align: center;
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-contact {
@@ -240,8 +252,8 @@
 
 .form-container {
     display: flex;
-    justify-content: space-between;
-    padding: 250px;
+    justify-content:center;
+    flex-direction: row;
     padding-top: 50px;
 }
 
@@ -256,11 +268,16 @@
 .text-contact {
     width: 300px;
     height: auto;
+    display: flex;
+    flex-direction: column;
 }
 .names {
     background-color: #252B42;
     color: #FFFFFF;
-    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 }
 
 .table-names-cont {
