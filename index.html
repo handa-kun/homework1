@@ -10,21 +10,31 @@
 <body>
     <header class="header-section d-flex" >
         <nav class="header-navigation d-flex">
-            <a href="#" class="header-logo">
-                <img src="public/images/Rectangle 4.png" class="header-logo-img" alt="logo">
+            <a href="#">
+                <img src="public/images.svg/main-logo.svg" class="header-logo-img" alt="logo">
             </a>
-         <ul class="header-button-list">
-            <li class="nav-item"><a href="#" class="nav-item-link">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-item-link">Product</a></li>
-            <li class="nav-item"><a href="#" class="nav-item-link">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-item-link">About</a></li>
-            <li class="nav-item"><a href="#" class="nav-item-link">Contact</a></li>
-         </ul>
-        <div class="header-social">
-            <a href="https://twitter.com" class="h-social-link"><img src="public/images/Vector.png" alt="logo" class="social-logo"></a>
-            <a href="https://facebook.com" class="h-social-link"><img src="public/images/Vector (1).png" alt="logo" class="social-logo"></a>
-            <a href="https://linkedin.com" class="h-social-link"><img src="public/images/Vector (2).png" alt="logo" class="social-logo"></a>
-        </div>
+            <ul class="header-button-list d-flex">
+                <li class="nav-item"><a href="#" class="nav-item-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-item-link">Product</a></li>
+                <li class="nav-item"><a href="#" class="nav-item-link">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-item-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-item-link">Contact</a></li>
+            </ul>
+            <div class="header-social">
+                <a class="links" href="https://twitter.com"> 
+                    <svg
+                        class="social-logo"
+                        width="34" 
+                        height="28" 
+                        viewBox="0 0 34 28" 
+                        fill="none" 
+                        xmlns="http://www.w3.org/2000/svg">
+                    <path d="M33.6845 3.68535C32.4597 4.2137 31.1269 4.59394 29.754 4.74204C31.1793 3.89523 32.2467 2.55742 32.7559 0.979599C31.4184 1.77527 29.9531 2.33321 28.4251 2.62867C27.7865 1.94593 27.0141 1.40203 26.156 1.03086C25.298 0.659692 24.3727 0.469204 23.4379 0.471269C19.6554 0.471269 16.6134 3.53726 16.6134 7.2997C16.6134 7.82804 16.6775 8.35639 16.7815 8.86472C11.1179 8.56852 6.0666 5.86277 2.70842 1.72008C2.09652 2.76522 1.77587 3.95523 1.77981 5.16632C1.77981 7.53585 2.9846 9.62521 4.82179 10.854C3.7391 10.8114 2.68177 10.5138 1.73579 9.98544V10.0695C1.73579 13.3876 4.08131 16.1374 7.20734 16.7698C6.62039 16.9223 6.01659 17.0003 5.41017 17.002C4.96588 17.002 4.54561 16.958 4.12133 16.8979C4.9859 19.6037 7.50353 21.569 10.5015 21.633C8.15595 23.4702 5.21805 24.5509 2.02798 24.5509C1.4556 24.5509 0.927262 24.5309 0.378906 24.4668C3.40487 26.4081 6.9952 27.5288 10.8617 27.5288C23.4139 27.5288 30.2823 17.1301 30.2823 8.10422C30.2823 7.80803 30.2823 7.51184 30.2623 7.21565C31.5912 6.24301 32.7559 5.03823 33.6845 3.68535Z" fill="white"/>
+                    </svg>
+                </a>
+                <a class="links" href="https://facebook.com"><img src="public/images.svg/facebook.svg" alt="logo" class="social-logo"></a>
+                <a class="links" href="https://linkedin.com"><img src="public/images.svg/in.svg" alt="logo" class="social-logo"></a>
+            </div>
         </nav>
         <div class="header-discript d-flex">
             <h1>The best products start with Figma</h1>
@@ -38,6 +48,7 @@
     </header>
     <main class="main-info">
         <section class="section-info d-flex">
+        <div class="fw d-flex">
             <div class="fastest-way d-flex">
                 <h2>Fastest way to organize</h2>
                 <h4>Most calendars are disigned for teams. State is designed for freelancers</h4>
@@ -45,13 +56,15 @@
                     Try For Free
                 </button>
             </div>
-            <div>
-                <img src="public/images/@ Macbook Pro.png" alt="logo" class="image-to-discription">
+            <div class="fastway_logo d-flex">
+                <img src="public/images/@ Macbook Pro.png" alt="logo" class="img_mac">
             </div>
+        </div>
         </section>
         <section class="email d-flex">
+        <div class="cont_email">
             <div class="logo-email">
-                <img src="public/images/undraw_newsletter_vovu.png" alt="logo" class="img-logo-email">
+                <img src="public/images/undraw_newsletter_vovu.png" alt="logo" class="img-email">
             </div>
             <div class="info-email d-flex">
                 <h3>At your fingertips</h3>
@@ -61,14 +74,17 @@
                     Available exclusivery on Figmaland 
                     </span>
                 </h3>
+                <div class="subscribe d-flex">
                 <textarea placeholder="Your Email"></textarea>
-                <input type="submit" value="Subscribe">
+                <input style="width:236px;height:52px;background-color:#2091F9;color:#FFFFFF;border-radius:35px;text-align:center; "submit" value="Subscribe">
+                </div>    
             </div>
+        </div>
         </section>
         <section class="partners d-flex">
-                <h1>Partners</h1>
+                <h2>Partners</h2>
                      <h4>Most calendars are designed for teams.<br>
-                    Slate is designed for freelancers</h4>
+                    is designed for freelancers</h4>
             <div class="grid-partners">
                 <div>
                     <h6>Client Name</h6>
@@ -174,10 +190,11 @@
                 </div>
         </section>
         <section class="contact-us d-flex">
-        <div class="text-contact d-flex">
-            <h2>Contact Us</h2>
-            <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
-        </div>
+        <div class="cont_us d-flex">
+            <div class="text-contact d-flex">
+                <h2>Contact Us</h2>
+                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+            </div>
             <div class="form-container d-flex">
                 <div class="form-contact d-flex">
                     <h3>Contacts Us</h3>
@@ -185,19 +202,26 @@
                     <textarea placeholder="Your Email"></textarea>
                     <input type="submit" value="Send">
                 </div>
-                    <div class="map-contact d-flex">
-                        <nav class="contacts d-flex">
-                           <img src="public/images/contacts/map.png" alt="logo" class="logo-contact">
-                           <h6>6386 Spring St undefined Anchorage,<br>
-                            Georgia 12473 United States</h6>
-                           <img src="public/images/contacts/mob.png" alt="logo" class="logo-contact">
-                           <h6>(843) 555-0130</h6>
-                           <img src="public/images/contacts/mail.png" alt="logo" class="logo-contact">
-                           <h6>willie.jennings@example.com</h6>
-                        </nav>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.2469051344603!2d30.317523715841002!3d59.92804508187233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696253543401351%3A0x79c84c3676abc002!2sTraining%20center%20Brunoyam!5e0!3m2!1sen!2sru!4v1667510983630!5m2!1sen!2sru" width="100%" height="120%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="map-contact d-flex">
+                    <div class="contacts d-flex">
+                        <div class="img_info d-flex">
+                        <img src="public/images.svg/pointer.svg" alt="logo" class="logo-contact">
+                        <h6>6386 Spring St undefined Anchorage,<br>
+                        Georgia 12473 United States</h6>
+                        </div>
+                        <div class="img_info">
+                        <img src="public/images.svg/phone.svg" alt="logo" class="logo-contact">
+                        <h6>(843) 555-0130</h6>
+                        </div>
+                        <div class="img_info">
+                        <img src="public/images.svg/mail.svg" alt="logo" class="logo-contact">
+                        <h6>willie.jennings@example.com</h6>
+                        </div>
                     </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.2469051344603!2d30.317523715841002!3d59.92804508187233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696253543401351%3A0x79c84c3676abc002!2sTraining%20center%20Brunoyam!5e0!3m2!1sen!2sru!4v1667510983630!5m2!1sen!2sru" width="300px" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
+        </div>
         </section>
     </main>
     <footer class="names d-flex">
