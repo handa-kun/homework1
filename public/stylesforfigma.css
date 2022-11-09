@@ -4,18 +4,22 @@ body {
     font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
+div {
+    box-sizing: border-box;
+}
+
 
 
 .d-flex {
     display: flex;
 }
 
-    .header-logo-img {
+.header-logo-img {
     width: 150px;
     height: auto;
 }
 
-    .links:hover>.social-logo {
+.links:hover>.social-logo {
     width: 25px;
     height: auto;  
 }
@@ -55,24 +59,42 @@ body {
 
 .header-section {
     height: auto;
-    padding-bottom: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: url(images/Rectangle\ 9.png); 
+    position: relative;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.bg {
+    z-index: -1;
+    width: 100vw;
+    height: auto;
+
+}
+
+.content-header {
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+
 }
 
 .header-discript {
     color: #FFFFFF;
     font-size: 25px;
-    width: 600px;
+    width: 60%;
     height: auto;
     display: flex;
     text-align: center;
     flex-direction: column;
+    align-self: center;
     align-items: center;
+    
 }
 
 .header-button {
@@ -94,10 +116,7 @@ body {
 }
 
 .subscribe {
-    flex-direction: column;
-    letter-spacing: 0.1rem;
-    transition: all 0.1s ease;
-    cursor: pointer;
+
 }
 
 .button-link:hover {
@@ -155,6 +174,34 @@ body {
     
 }
 
+.form-email {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.form-email .button-link {
+    height: 52px;
+    width: 150px;
+}
+
+.post-form {
+    text-align: center;
+    width: 280px;
+    height: 52px;
+    background: #E8E8E8;
+    border-radius: 35px;
+    color: #252B42;
+    border:#252B42 solid 2px;
+    letter-spacing: 0.1rem;
+    transition: all 0.1s ease;
+    padding-left: 20px;
+    text-align: left;
+}
+
+
+
+
 .img-email {
     width: 300px;
     height: auto;
@@ -201,6 +248,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-bottom: 50px;
 }
 .logo-test {
@@ -217,13 +265,20 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
-    justify-content: space-between;
-    padding-inline: 600px;
-    width: 120px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     height: auto;
+    gap: 20px;
 }
 .test-about {
     font-weight: normal;
+}
+
+.cont-h6 {
+    flex-direction: column;
+    line-height: 0;
 }
 
 .pricing {
@@ -235,6 +290,17 @@ body {
     align-items: center;
     align-content: center;
     padding-bottom: 50px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.per-month {
+    display: flex;
 }
 
 .text-price {
@@ -294,6 +360,34 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.form-email {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-email2 {
+    flex-direction: column;
+    gap: 50px;
+    border: #D8D8D8 solid 1px;
+    border-radius: 35px;
+    padding: 25px 25px 50px 25px;
+}
+
+.post-message {
+    width: 280px;
+    height: 193px;
+    background: #E8E8E8;
+    color: #252B42;
+    border:#252B42 solid 2px;
+    padding-left: 20px;
+}
+
+.form-email2 .button-link {
+    width: 150px;
+    height: 52px;
+}
+
 .map-contact {
     display: flex;
     flex-direction: column;
@@ -304,7 +398,8 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    gap: 60px;
+    align-items: center;
+    gap: 50px;
     padding-bottom: 60px;
     padding-top: 30px;
 }

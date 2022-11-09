@@ -9,6 +9,10 @@
 </head>
 <body>
     <header class="header-section d-flex" >
+        <div class="bg-header">
+            <img src="public/images/Rectangle 9.png" alt="bg" class="bg">
+        </div>
+        <div class="content-header d-flex">
         <nav class="header-navigation d-flex">
             <a href="#">
                 <img src="public/images.svg/main-logo.svg" class="header-logo-img" alt="logo">
@@ -45,6 +49,7 @@
             Try For Free
             </button>
         </div>
+    </div>
     </header>
     <main class="main-info">
         <section class="section-info d-flex">
@@ -75,8 +80,12 @@
                     </span>
                 </h3>
                 <div class="subscribe d-flex">
-                <textarea placeholder="Your Email"></textarea>
-                <input style="width:236px;height:52px;background-color:#2091F9;color:#FFFFFF;border-radius:35px;text-align:center; "submit" value="Subscribe">
+                    <form action="" method="post" class="post-email">
+                        <div class="form-email d-flex">
+                            <input type="email" class="post-form" placeholder="Your Email">
+                            <input type="submit" class="button-link" value="Subscribe" >
+                        </div>
+                    </form>
                 </div>    
             </div>
         </div>
@@ -124,17 +133,22 @@
             </button>
         </section>
         <section class="testimonials d-flex">
+            <div class="ibm">
             <h2>Testimonials</h2>
             <img src="public/images/test.png" alt="logo" class="logo-test">
             <h4 class="test-about">Most calendars are designed for teams. Slate is designed for freelancers<br>
                 who want a simple way to plan their schedule.</h4>
-                <div class="client d-flex">
-                    <img src="public/images/Ellipse 2.png" alt="logo" class="client-logo">
-                    <h6 class="test-about">Organize across Ui designer</h6>
+            </div>
+            <div class="client d-flex">
+                <img src="public/images/Ellipse 2.png" alt="logo" class="client-logo">
+                <div class="cont-h6 d-flex">
+                    <h6 class="test-about">Organize across</h6>
+                    <p class="test-about">Ui designer</p>
                 </div>
-                    <button class="button-link">
-                        More Testimonials
-                    </button>
+            </div>
+            <button class="button-link">
+                More Testimonials
+            </button>
         </section>
         <section class="pricing d-flex">
             <div class="text-price">
@@ -146,6 +160,13 @@
                         <h3>Free</h3>
                         <h6>Organize across all<br> 
                             apps by hand</h6>
+                        <div class="price d-flex">
+                            <h1>0</h1>
+                            <div class="per-month d-flex">
+                                <h3>$</h3>
+                                <h6>Per month</h6>
+                            </div>
+                        </div>
                             <ul>
                                 <li>Pricing Feature</li>
                                 <li>Pricing Feature</li>
@@ -161,6 +182,13 @@
                         <h3>Standard</h3>
                             <h6>Organize across all<br>
                                 sapps by hand</h6>
+                                <div class="price d-flex">
+                                    <h1>10</h1>
+                                    <div class="per-month d-flex">
+                                        <h3>$</h3>
+                                        <h6>Per month</h6>
+                                    </div>
+                                </div>
                                 <ul>
                                     <li>Pricing Feature</li>
                                     <li>Pricing Feature</li>
@@ -176,6 +204,13 @@
                             <h3>Business</h3>
                             <h6>Organize across all<br>
                                  apps by hand</h6>
+                                 <div class="price d-flex">
+                                    <h1>99</h1>
+                                    <div class="per-month d-flex">
+                                        <h3>$</h3>
+                                        <h6>Per month</h6>
+                                    </div>
+                                </div>
                                  <ul>
                                     <li>Pricing Feature</li>
                                     <li>Pricing Feature</li>
@@ -196,12 +231,15 @@
                 <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
             </div>
             <div class="form-container d-flex">
-                <div class="form-contact d-flex">
-                    <h3>Contacts Us</h3>
-                    <textarea placeholder="Your Name"></textarea>
-                    <textarea placeholder="Your Email"></textarea>
-                    <input type="submit" value="Send">
-                </div>
+                    <form action="" method="post" class="post-email">
+                        <div class="form-email2 d-flex">
+                            <h3 style="text-align: center;">Contacts Us</h3>
+                            <input type="text" class="post-form" placeholder="Your Name">
+                            <input type="email" class="post-form" placeholder="Your Email">
+                            <input type="text"  class="post-message" placeholder="Your Message">
+                            <input type="submit" class="button-link" value="Send" >
+                        </div>
+                    </form>
                 <div class="map-contact d-flex">
                     <div class="contacts d-flex">
                         <div class="img_info d-flex">
@@ -218,7 +256,7 @@
                         <h6>willie.jennings@example.com</h6>
                         </div>
                     </div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.2469051344603!2d30.317523715841002!3d59.92804508187233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696253543401351%3A0x79c84c3676abc002!2sTraining%20center%20Brunoyam!5e0!3m2!1sen!2sru!4v1667510983630!5m2!1sen!2sru" width="300px" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.2469051344603!2d30.317523715841002!3d59.92804508187233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696253543401351%3A0x79c84c3676abc002!2sTraining%20center%20Brunoyam!5e0!3m2!1sen!2sru!4v1667510983630!5m2!1sen!2sru" width="600px" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
