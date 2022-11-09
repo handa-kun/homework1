@@ -4,7 +4,9 @@ body {
     font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
-
+div {
+    box-sizing: border-box;
+}
 
 .d-flex {
     display: flex;
@@ -17,13 +19,21 @@ body {
 
     .links:hover>.social-logo {
     width: 25px;
-    height: auto;  
+    height: auto;
 }
 
 .links {
     letter-spacing: 0.1rem;
     transition: all 0.1s ease;
     box-sizing: border-box;
+}
+.header-content-container {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px ;
 }
 
 .header-navigation {
@@ -53,13 +63,18 @@ body {
     gap: 40px;
 }
 
-.header-section {
+.bg {
+    z-index: -1;
+    width: 100vw;
     height: auto;
-    padding-bottom: 100px;
+}
+
+.header-section {
+    position: relative;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: url(images/Rectangle\ 9.png); 
     background-size: cover;
     background-attachment: fixed;
 }
@@ -67,7 +82,8 @@ body {
 .header-discript {
     color: #FFFFFF;
     font-size: 25px;
-    width: 600px;
+    width: 60%;
+    align-self: center;
     height: auto;
     display: flex;
     text-align: center;
@@ -152,7 +168,7 @@ body {
     flex-direction:row;
     align-items:center;
     justify-content:center;
-    
+
 }
 
 .img-email {
@@ -218,7 +234,6 @@ body {
     padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
-    padding-inline: 600px;
     width: 120px;
     height: auto;
 }
