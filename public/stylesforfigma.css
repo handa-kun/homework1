@@ -444,6 +444,9 @@ div {
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .table-names-cont {
@@ -458,3 +461,19 @@ div {
     padding-right: 30px;
     line-height: 50px;
 }
+
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 20px;
+}
+
