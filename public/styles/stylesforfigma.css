@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+
     font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
@@ -8,10 +9,12 @@ div {
     box-sizing: border-box;
 }
 
-
-
 .d-flex {
     display: flex;
+}
+
+.figma_land-img {
+    width: max-content;
 }
 
 .header-logo-img {
@@ -27,6 +30,7 @@ div {
 .links {
     letter-spacing: 0.1rem;
     transition: all 0.1s ease;
+
     box-sizing: border-box;
 }
 
@@ -39,7 +43,6 @@ div {
 }
 
 .header-button-list {
-    display: flex;
     list-style-type: none;
     flex-direction: row;
     gap: 30px;
@@ -57,14 +60,20 @@ div {
     gap: 40px;
 }
 
+.open-menu {
+    display: none;
+
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
 .header-section {
     height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
     position: relative;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 .bg {
@@ -81,31 +90,28 @@ div {
     top: 0;
     left: 0;
     padding: 20px;
-
 }
 
 .header-discript {
     color: #FFFFFF;
     font-size: 25px;
+
     width: 60%;
     height: auto;
     display: flex;
     text-align: center;
     flex-direction: column;
-    align-self: center;
+    align-self: center;  
+    padding: 5rem;
     align-items: center;
-    
 }
 
-.header-button {
-    display: flex;
-    justify-content: center;
-}
 
 .button-link {
     text-align: center;
     width: 236px;
     height: 52px;
+
     background: #2091F9;
     border-radius: 35px;
     color: #FFFFFF;
@@ -115,9 +121,6 @@ div {
     cursor: pointer;
 }
 
-.subscribe {
-
-}
 
 .button-link:hover {
     color:#2091F9;
@@ -126,29 +129,21 @@ div {
 
 .section-info {
     padding-top: 200px;
-    display: flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
+    justify-content: center;
 }
 
 .fw {
-    display: flex;
-    justify-content: space-between;
     flex-direction: row;
     align-items: center;
 }
 
 .fastest-way {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 300px;
 }
 
 .fastway_logo {
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -186,9 +181,9 @@ div {
 }
 
 .post-form {
-    text-align: center;
     width: 280px;
     height: 52px;
+
     background: #E8E8E8;
     border-radius: 35px;
     color: #252B42;
@@ -198,9 +193,6 @@ div {
     padding-left: 20px;
     text-align: left;
 }
-
-
-
 
 .img-email {
     width: 300px;
@@ -213,7 +205,6 @@ div {
     width: 300px;
     height: auto;
 }
-
 
 .email-discript {
     font-weight: normal;
@@ -233,7 +224,7 @@ div {
     grid-template-columns: repeat(4, 170px);
     grid-auto-rows: repeat(2, 80px);
     background: #FFFFFF;
-    border: 4px solid #D8D8D8;
+    border: 4px solid #f1ecec;
     margin: 75px;
 }
 
@@ -476,4 +467,3 @@ div {
     align-items:center;
     gap: 20px;
 }
-

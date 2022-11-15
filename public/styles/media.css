@@ -1,0 +1,18 @@
+/*-------------media------------*/
+@media screen and (max-width: 576px) {
+  .header-navigation {
+    flex-wrap: wrap;
+  }
+  .figma_land_img {
+    width: 100%;
+  }
+  .hbl {
+    width: 100%;
+    display: none;
+  }
+  .open-menu {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

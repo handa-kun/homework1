@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FigmaLand</title>
-    <link rel="stylesheet" href="public/stylesforfigma.css">
+    <link rel="stylesheet" href="public/styles/stylesforfigma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="public/styles/media.css">
 </head>
 <body>
     <header class="header-section d-flex" >
@@ -13,86 +15,83 @@
             <img src="public/images/Rectangle 9.png" alt="bg" class="bg">
         </div>
         <div class="content-header d-flex">
-        <nav class="header-navigation d-flex">
-            <a href="#">
-                <img src="public/images.svg/main-logo.svg" class="header-logo-img" alt="logo">
-            </a>
-            <ul class="header-button-list d-flex">
-                <li class="nav-item"><a href="#" class="nav-item-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-item-link">Product</a></li>
-                <li class="nav-item"><a href="#" class="nav-item-link">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-item-link">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-item-link">Contact</a></li>
-            </ul>
-            <div class="header-social">
-                <a class="links" href="https://twitter.com"> 
-                    <svg
-                        class="social-logo"
-                        width="34" 
-                        height="28" 
-                        viewBox="0 0 34 28" 
-                        fill="none" 
-                        xmlns="http://www.w3.org/2000/svg">
-                    <path d="M33.6845 3.68535C32.4597 4.2137 31.1269 4.59394 29.754 4.74204C31.1793 3.89523 32.2467 2.55742 32.7559 0.979599C31.4184 1.77527 29.9531 2.33321 28.4251 2.62867C27.7865 1.94593 27.0141 1.40203 26.156 1.03086C25.298 0.659692 24.3727 0.469204 23.4379 0.471269C19.6554 0.471269 16.6134 3.53726 16.6134 7.2997C16.6134 7.82804 16.6775 8.35639 16.7815 8.86472C11.1179 8.56852 6.0666 5.86277 2.70842 1.72008C2.09652 2.76522 1.77587 3.95523 1.77981 5.16632C1.77981 7.53585 2.9846 9.62521 4.82179 10.854C3.7391 10.8114 2.68177 10.5138 1.73579 9.98544V10.0695C1.73579 13.3876 4.08131 16.1374 7.20734 16.7698C6.62039 16.9223 6.01659 17.0003 5.41017 17.002C4.96588 17.002 4.54561 16.958 4.12133 16.8979C4.9859 19.6037 7.50353 21.569 10.5015 21.633C8.15595 23.4702 5.21805 24.5509 2.02798 24.5509C1.4556 24.5509 0.927262 24.5309 0.378906 24.4668C3.40487 26.4081 6.9952 27.5288 10.8617 27.5288C23.4139 27.5288 30.2823 17.1301 30.2823 8.10422C30.2823 7.80803 30.2823 7.51184 30.2623 7.21565C31.5912 6.24301 32.7559 5.03823 33.6845 3.68535Z" fill="white"/>
-                    </svg>
-                </a>
-                <a class="links" href="https://facebook.com"><img src="public/images.svg/facebook.svg" alt="logo" class="social-logo"></a>
-                <a class="links" href="https://linkedin.com"><img src="public/images.svg/in.svg" alt="logo" class="social-logo"></a>
+            <div class="header-navigation d-flex">
+                <div class="figma_land-img d-flex">
+                    <a href="#">
+                        <img src="public/images.svg/main-logo.svg" class="header-logo-img" alt="logo">
+                    </a>
+                </div>
+                <div class="hbl d-flex">
+                    <ul class="header-button-list d-flex">
+                        <li class="nav-item"><a href="#" class="nav-item-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-item-link">Product</a></li>
+                        <li class="nav-item"><a href="#" class="nav-item-link">Pricing</a></li>
+                        <li class="nav-item"><a href="#" class="nav-item-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-item-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="header-social d-flex">
+                    <a class="links" href="https://twitter.com"><img src="public/images.svg/twitter.svg" alt="logo" class="social-logo"></a>
+                    <a class="links" href="https://facebook.com"><img src="public/images.svg/facebook.svg" alt="logo" class="social-logo"></a>
+                    <a class="links" href="https://linkedin.com"><img src="public/images.svg/in.svg" alt="logo" class="social-logo"></a>
+                </div>
+                 <button class="open-menu">
+                    <img src="public/images.svg/ham.svg"  class="ham" alt="menu">
+                </button>
             </div>
-        </nav>
-        <div class="header-discript d-flex">
-            <h1>The best products start with Figma</h1>
-            <h4>Most calendars are disigned for teams. State is designed for freelancers</h4>
+            <div class="header-discript d-flex">
+                <h1>The best products start with Figma</h1>
+                <h4>Most calendars are disigned for teams. State is designed for freelancers</h4>
+                <button class="button-link">
+                Try For Free
+                </button>   
+            </div>
         </div>
-        <div class="header-button">
-            <button class="button-link">
-            Try For Free
-            </button>
-        </div>
-    </div>
     </header>
     <main class="main-info">
         <section class="section-info d-flex">
-        <div class="fw d-flex">
-            <div class="fastest-way d-flex">
-                <h2>Fastest way to organize</h2>
-                <h4>Most calendars are disigned for teams. State is designed for freelancers</h4>
-                <button class="button-link">
-                    Try For Free
-                </button>
+            <div class="fw d-flex">
+                <div class="fastest-way d-flex">
+                    <h2>Fastest way to organize</h2>
+                    <h4>Most calendars are disigned for teams. State is designed for freelancers</h4>
+                    <button class="button-link">
+                        Try For Free
+                    </button>
+                </div>
+                <div class="fastway_logo d-flex">
+                    <img src="public/images/@ Macbook Pro.png" alt="logo" class="img_mac">
+                </div>
             </div>
-            <div class="fastway_logo d-flex">
-                <img src="public/images/@ Macbook Pro.png" alt="logo" class="img_mac">
-            </div>
-        </div>
         </section>
         <section class="email d-flex">
-        <div class="cont_email">
-            <div class="logo-email">
-                <img src="public/images/undraw_newsletter_vovu.png" alt="logo" class="img-email">
-            </div>
-            <div class="info-email d-flex">
-                <h3>At your fingertips</h3>
-                <h2>Lightning fast prototyping</h2>
-                <h3>Subscribe to our Newsletter<br>
+            <div class="cont_email d-flex">
+                <div class="logo-email">
+                    <img src="public/images/undraw_newsletter_vovu.png" alt="logo" class="img-email">
+                </div>
+                <div class="info-email d-flex">
+                    <h3>At your fingertips</h3>
+                    <h2>Lightning fast prototyping</h2>
+                    <h3>Subscribe to our Newsletter<br>
                     <span class="email-discript"> 
                     Available exclusivery on Figmaland 
                     </span>
-                </h3>
+                    </h3>
                 <div class="subscribe d-flex">
-                    <form action="" method="post" class="post-email">
+                    <form>
                         <div class="form-email d-flex">
-                            <input type="email" class="post-form" placeholder="Your Email">
-                            <input type="submit" class="button-link" value="Subscribe" >
+                            <input type="email" name="email"  class="post-form" placeholder="Your Email" required>
+                            <button type="submit" id="s_email" class="button-link">
+                                Subscribe
+                            </button>
                         </div>
                     </form>
                 </div>    
+                </div>
             </div>
-        </div>
         </section>
         <section class="partners d-flex">
-                <h2>Partners</h2>
-                     <h4>Most calendars are designed for teams.<br>
+            <h2>Partners</h2>
+            <h4>Most calendars are designed for teams.<br>
                     is designed for freelancers</h4>
             <div class="grid-partners">
                 <div>
@@ -134,9 +133,9 @@
         </section>
         <section class="testimonials d-flex">
             <div class="ibm">
-            <h2>Testimonials</h2>
-            <img src="public/images/test.png" alt="logo" class="logo-test">
-            <h4 class="test-about">Most calendars are designed for teams. Slate is designed for freelancers<br>
+                <h2>Testimonials</h2>
+                <img src="public/images/test.png" alt="logo" class="logo-test">
+                <h4 class="test-about">Most calendars are designed for teams. Slate is designed for freelancers<br>
                 who want a simple way to plan their schedule.</h4>
             </div>
             <div class="client d-flex">
@@ -231,13 +230,15 @@
                 <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
             </div>
             <div class="form-container d-flex">
-                    <form action="" method="post" class="post-email">
+                    <form action="">
                         <div class="form-email2 d-flex">
                             <h3 style="text-align: center;">Contacts Us</h3>
                             <input type="text" name="login" class="post-form" placeholder="Your Name">
                             <input type="email" class="post-form"  placeholder="Your Email">
                             <input type="text"  class="post-message" placeholder="Your Message">
-                            <input type="submit" class="button-link" value="Send" >
+                            <button class="button-link">
+                                Send
+                            </button>
                         </div>
                     </form>
                 <div class="map-contact d-flex">
@@ -316,8 +317,8 @@
             </div>
         </div>
     </footer>
-    <script src="jQ/jQ.js"></script>
-    <script src="jQ/scripts.js"></script>
+    <script src="/main_scripts/jQuery.js"></script>
+    <script src="/main_scripts/main.js"></script>
 
 </body>
 </html>
