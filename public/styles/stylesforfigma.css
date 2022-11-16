@@ -353,7 +353,6 @@ div {
 }
 
 .form-email {
-    display: flex;
     flex-direction: row;
 }
 

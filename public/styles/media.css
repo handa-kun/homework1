@@ -1,17 +1,163 @@
+@charset "UTF-8";
 /*-------------media------------*/
 @media screen and (max-width: 576px) {
+  .content-header {
+    padding: 0;
+  }
+  .content-header .hbl {
+    display: none;
+  }
   .header-navigation {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .open-menu {
+    display: flex;
+  }
+  .header-discript {
+    width: 100%;
+    padding: 0;
+    font-size: smaller;
+  }
+  .section-info {
+    padding: 0;
+  }
+  .section-info .fw {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .section-info .fw .fastest-way {
+    align-items: center;
+  }
+  .email {
+    padding: 5rem;
+  }
+  .email .cont_email {
+    flex-direction: column;
+    font-size: smaller;
+  }
+  .email .img-email {
+    width: 75%;
+  }
+  .email .form-email {
+    flex-direction: column;
+    align-items: center;
+  }
+  .email .info-email {
+    align-items: center;
+  }
+  .partners {
+    padding: 0;
+  }
+  .grid-partners {
+    width: 100%;
+    grid-template-columns: 2fr 2fr;
+    margin: 20px;
+  }
+  .testimonials {
+    padding: 5rem;
+  }
+  .form-container {
+    flex-direction: column;
+  }
+  .form-container .contacts {
+    flex-direction: column;
+  }
+  .names {
     flex-wrap: wrap;
   }
-  .figma_land_img {
-    width: 100%;
+  .names .box {
+    justify-content: center;
   }
+}
+@media screen and (max-width: 767px) {
+  /* СТИЛИ ДЛЯ ПЛАНШЕТА В ВЕРТИКАЛЬ */
   .hbl {
-    width: 100%;
     display: none;
   }
   .open-menu {
     display: flex;
+  }
+  .header-navigation {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .header-navigation .header-social {
+    gap: 10px;
+  }
+  .header-discript {
+    width: 75%;
+    font-size: smaller;
+  }
+  .section-info {
+    padding: 5rem;
+  }
+  .cont_email {
+    width: 100%;
+    flex: 1;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 5px;
+    font-size: smaller;
+  }
+  .logo-email {
+    width: fit-content;
+  }
+  .img-email {
+    width: 75%;
+  }
+  .form-email {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-email {
+    width: 100%;
+    align-items: center;
+  }
+  .table-price {
+    width: 75%;
+    grid-template-columns: 1fr;
+  }
+  .table-price .middle-table {
+    margin: 2em;
+    padding-bottom: 20px;
+  }
+  .form-container {
+    flex-direction: column-reverse;
+  }
+  .names {
+    flex-direction: column;
+  }
+  .names .table-names-cont {
+    width: 100%;
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+  .names .social-media {
+    width: 50%;
+    display: wrap;
+    align-self: center;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* СТИЛИ ДЛЯ ПЛАНШЕТА В ГОРИЗОНТАЛЬ */
+  .header-discript {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .email {
+    flex: 1;
+  }
+  .email .cont_email {
+    width: 100%;
+    justify-content: center;
+  }
+  .form-email {
+    flex-direction: column;
+  }
+  .form-container {
+    width: 100%;
+    justify-content: space-around;
   }
 }
 
