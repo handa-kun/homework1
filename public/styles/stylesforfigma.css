@@ -46,6 +46,7 @@ div {
     list-style-type: none;
     flex-direction: row;
     gap: 30px;
+    padding-left: 0;
 }
 
 .nav-item-link {
