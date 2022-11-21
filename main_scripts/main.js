@@ -23,7 +23,7 @@ $('#s_email').click((e) => {
         alert('Try again!');
     }
     e.preventDefault();
-    e.target.reset();
+    $('#justEmail').trigger('reset');
 });
 
 
@@ -40,6 +40,6 @@ $('#full-form').click((e) => {
         alert('Try again!');
     }
     e.preventDefault();
-    e.target.reset();
+    $('#fForm').trigger('reset');
 });
 
